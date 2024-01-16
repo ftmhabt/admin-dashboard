@@ -59,6 +59,13 @@ body{
     height: 30px;
     flex-grow: 1;
     border-radius: 1rem;
+    border: 0;
+    padding: 1rem;
+}
+
+.search-bar:focus{
+    outline: 0;
+    border: #97dffc 1px dashed;
 }
 
 .little-user-img{
