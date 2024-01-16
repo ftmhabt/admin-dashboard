@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    border: 1px solid blue;
+}
+
+
+/* Header Styles */
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 16px;
+}
+
+.search,
+.notification,
+.user,
+.buttons{
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.search-icon,
+.notification-icon{
+    width: 30px;
+    height: auto;
+    padding: 3px;
+}
+
+.search-bar{
+    background-color: aliceblue;
+    height: 30px;
+    flex-grow: 1;
+    border-radius: 1rem;
+}
+
+.little-user-img{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.little-user-info{
+    flex-grow: 1;
+    align-self: center;
+}
+
+.user-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info{
+    align-self: center;
+}
+
+.user-info p:first-child{
+    font-size: 0.7rem;
+}
+
+.buttons button{
+    background-color: blue;
+    color: white;
+    width: 30%;
+    height: 50%;
+    align-self: center;
+    border-radius: 1rem;
+}
