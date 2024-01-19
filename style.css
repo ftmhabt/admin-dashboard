@@ -17,7 +17,7 @@
 
 body{
     display: grid;
-    grid-template-columns: 2fr 7fr;
+    grid-template-columns: 2fr 5fr 2fr;
     grid-template-rows: 1fr 5fr;
     height: 100vh;
 }
@@ -26,6 +26,7 @@ body{
 /* Header Styles */
 
 .header{
+    grid-column: 2/-1;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 16px;
